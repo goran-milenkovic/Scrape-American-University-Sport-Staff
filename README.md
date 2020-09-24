@@ -33,7 +33,7 @@ Test URLs:
 - Arkansas State Red Wolves Athletic Staff Directory (http://www.astateredwolves.com/ViewArticle.dbml?ATCLID=207138)
 - Arizona Wildcats Athletics Staff Directory (https://athletics.arizona.edu/StaffDirectory/index.asp)
 
-The output should be in JSON format, e.g. for the first Test URL and "volleyball" as a sport:
+The output is in JSON format, e.g. for the first Test URL and "volleyball" as a sport:
 
     [
         {
@@ -59,9 +59,9 @@ The output should be in JSON format, e.g. for the first Test URL and "volleyball
         }      
     ]
 
-## Bonus option
+## Bonus Option
 
 URL might point to the page that has an iframe HTML element, with the Staff Directory page loaded as a sub-page. The tool is able to recognize such situation (i.e. if no results have been found and the page contains iframe elements), proceed with loading the iframe source, and repeat the search. URL below is to test this functionality.
 
-Bonus Test URL:
+Bonus Option Test URL:
 - Arizona Wildcats Athletics Staff Directory (https://arizonawildcats.com/sports/2007/8/1/207969432.aspx)
